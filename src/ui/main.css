@@ -1,0 +1,138 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    /* background-color: gray; */
+}
+
+h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.abnormalities {
+    margin-right: 25%;
+    margin-top: 16px;
+}
+
+.reverse-list {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.abnormality-icon {
+    background-repeat: no-repeat;
+    background: round;
+    height: 35px;
+    width: 35px;
+    margin: 0 1px 0 1px;
+}
+
+.abnormality-stack {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    color: white;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(30, 30, 30, 50%);
+    margin: 0;
+    padding: 0 0 0 0;
+    height: 100%;
+}
+
+.cursor {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 9.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: thick double lightblue;
+}
+
+.profile-view {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 200px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 87%;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-view > div {
+    height: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-view > div > div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-view > div > div > h6 {
+    min-width: max-content;
+}
+
+.skill-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-bar-mini {
+    width: calc(30px * 6);
+}
+
+.skill-bar-mini > div {
+    width: 30px;
+    height: 30px;
+}
+
+.skill-bar-big {
+    width: calc(40px * 14);
+}
+
+.skill-bar-big > div {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-view {
+    text-align: right;
+    background-repeat: no-repeat;
+    background: round;
+}
+
+.skill-view > h6 {
+    font-size: xx-small;
+    position: static;
+    padding: 2px 2px 0 0;
+    margin-bottom: -12px;
+    height: 10px;
+}
