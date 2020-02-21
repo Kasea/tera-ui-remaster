@@ -62,7 +62,7 @@ function windows(mod, ui) {
     this.get = async () => {
         ui.send("windows", uis);
     }
-    setTimeout(()=> this.get(), 3000);
+    // setTimeout(()=> this.get(), 3000);
 }
 
 function abnormalities(mod, ui) {
@@ -357,7 +357,7 @@ function keybinds(mod, ui) {
     mod.command.add("w", () => {
         this.get();
     });
-    setTimeout(this.get, 3000);
+    // setTimeout(this.get, 3000);
 }
 
 function cooldowns(mod, ui) {
